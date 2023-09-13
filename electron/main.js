@@ -69,7 +69,7 @@ function openAboutWindow() {
 }
 
 let curWindow;
-autoUpdater.autoDownload = false;
+autoUpdater.autoDownload = true;
 autoUpdater.autoInstallOnAppQuit = true;
 
 function createWindow() {
